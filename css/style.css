@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Russo One', sans-serif!important;
+}
+.navbar{
+    background-color: #1a1a1a!important;
+    padding: 0;
+    flex-wrap: nowrap !important;
+    border-bottom: black 3px solid;
+}
+.navbar-brand{
+    color: white!important;
+    padding: 0;
+}
+.btn-secondary{
+    border: none;
+    background-color: transparent;
+    color: transparent;
+}
+.btn-secondary:hover {
+    background-color:transparent;
+    border: none;
+    color: transparent;
+}
+.btn:focus {
+    box-shadow: none;
+    color: transparent;
+}
+.btn{
+    padding: .375rem 0;
+    color: transparent;
+}
+.nomeon{
+    color: #E74C3C;
+}
+.nomesinopse{
+    color: white;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-left: -20%;
+}
+.jumbotron{
+    background-image: url("../img/FUNDOIPHONEX.png");
+    height: 725px;
+}
+.container{
+    color: white;
+    text-align: center;
+    margin-top: 50%;
+}
+.lead{
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+}
+.carousel slide{
+    margin-top: 812px;
+}
+.cat{
+    color: black;
+    text-align: center;
+}
+.carousel-inner, .carousel-item{
+    height: 733px;
+    background-color: #1a1a1a;
+}
+.d-block{
+    margin: 15px 57px 20px!important;
+    
+}
+.textofilme, .textofilme2{
+    color: white;
+    text-align: justify;
+    padding: 0 5px 0 5px;
+    margin-left: 20%;
+}
+.textofilme2{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 12px;
+}
+#NOS{
+    margin-left: 45%;
+}
+#LAB{
+    margin-left: 23%;
+}
+.FALECONOSCO{
+    padding: 15px;
+    background: #1a1a1a;
+    height: 372px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+.fale{
+    padding: 10px 0;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+}
+form .inputs {
+    width: 80%;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 0 0 0 3px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+input{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    margin-top: 5px;
+}
+input{
+    -webkit-writing-mode: horizontal-tb !important;
+}
+#raio{
+    border-radius: 10px;
+    margin-top: 5px; 
+    font-family: 'Roboto', sans-serif;
+}
+#botao{
+    background-color: #E74C3C;
+    color: white;
+    border: none;
+    padding: 1px 15px;
+    font-size: 20px;
+    float: right;
+    margin-right: 10%;
+    font-family: 'Russo One', sans-serif;
+}
